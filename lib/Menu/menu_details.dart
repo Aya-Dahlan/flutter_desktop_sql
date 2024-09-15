@@ -1,0 +1,8 @@
+import 'package:flutter/material.dart';
+
+class MenuDetails {
+  final String title;
+  final IconData icon;
+  final Widget page;
+  MenuDetails({required this.icon, required this.page, required this.title});
+}
